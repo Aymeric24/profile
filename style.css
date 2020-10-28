@@ -45,6 +45,10 @@ ul {
 img {
   border-radius: 50%;
   box-shadow: -1.0625rem -1.0625rem 0 #6BFFFF, 1.0625rem 1.0625rem 2 #FF819E;
+  height:250px;
+  width:250px;
+  margin: 0 auto;
+  margin-left:8%;
 }
 
 img:hover{
@@ -55,7 +59,7 @@ img:hover{
 }
 
 
-.grid-container {
+/* .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.5fr 0.5fr 0.5fr;
@@ -64,25 +68,29 @@ img:hover{
     ". first-div first-div ."
     ". second-div second-div ."
     ". third-div third-div .";
-}
+} */
+/* .container {
+
+} */
 
 .first-div, .second-div {
-  border: 1px;
+  border: 13px;
   border-color: #cf8d98;
+  width:50%;
+  margin: 0 auto;
 }
+
 .first-div {
   margin-top:15px;
-  margin-left:7%;
   grid-area: first-div;
   background: rgba(0,0,0,.6);
   padding: 30px;
   border-radius: 4px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
-  height:95vh;
+  /* height:95vh; */
 }
 
 .second-div {
-  grid-area: second-div;
   background: rgba(0,0,0,.6);
   margin-top: 40px;
   padding: 30px 30px 30px 30px;
@@ -90,14 +98,14 @@ img:hover{
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
 
-.third-div {
+/* .third-div {
   grid-area: third-div;
   background: white;
   margin-top: 10px;
   padding: 30px;
   border-radius: 4px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
-}
+} */
 
 
 .img-container{
@@ -225,7 +233,7 @@ a {
 }
 
 #btn-send-find {
-  margin: auto 30px;
+  /* margin: auto 30px; */
   text-align: center;
   font-size: 40px;
   color:#712b32;
@@ -240,7 +248,7 @@ a {
 }
 
 .arrow-down {
-  margin-top: 15px;
+  /* margin-top: 15px; */
     text-shadow: -.0625rem -.0625rem 0 #6BFFFF, .0625rem .0625rem 0 #FF819E;
 }
 
