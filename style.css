@@ -43,10 +43,10 @@ ul {
 }
 
 img {
-  border-radius: 50%;
   box-shadow: -1.0625rem -1.0625rem 0 #6BFFFF, 1.0625rem 1.0625rem 2 #FF819E;
-  height:250px;
-  width:250px;
+  /* height: 210px; */
+  width: 250px;
+  overflow:auto;
   margin: 0 auto;
   margin-left:8%;
 }
@@ -81,7 +81,7 @@ img:hover{
 }
 
 .first-div {
-  margin-top:15px;
+  margin-top:8px;
   grid-area: first-div;
   background: rgba(0,0,0,.6);
   padding: 30px;
@@ -230,6 +230,7 @@ a {
 
 #find-me {
   margin-top:10px;
+  padding-bottom:10px
 }
 
 #btn-send-find {
@@ -249,7 +250,7 @@ a {
 
 .arrow-down {
   /* margin-top: 15px; */
-    text-shadow: -.0625rem -.0625rem 0 #6BFFFF, .0625rem .0625rem 0 #FF819E;
+  text-shadow: -.0625rem -.0625rem 0 #6BFFFF, .0625rem .0625rem 0 #FF819E;
 }
 
 
